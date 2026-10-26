@@ -1,17 +1,114 @@
 <!doctype html>
-<html lang="es" dir="ltr">
+<html lang="es-PE" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enbocados | Dale gusto a tu antojo</title>
-  <meta name="description" content="Mexa, bowls, burgers y papas en San Miguel. Conoce Enbocados y pide por PedidosYa.">
+  <title>Enbocados | Burgers, Mexa, Bowls y Salchipapas en San Miguel, Lima</title>
+  <meta name="description" content="Pide hamburguesas, tacos, bowls y salchipapas por delivery en San Miguel, Jesús María y Magdalena del Mar. Enbocados: mucho antojo, cero culpa. Pide por PedidosYa.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://enbocados.vercel.app/">
+  <meta name="theme-color" content="#ffe600">
+
+  <!-- Open Graph / redes sociales -->
+  <meta property="og:type" content="restaurant.menu">
+  <meta property="og:site_name" content="Enbocados">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:title" content="Enbocados | Burgers, Mexa, Bowls y Salchipapas en San Miguel, Lima">
+  <meta property="og:description" content="Pide hamburguesas, tacos, bowls y salchipapas por delivery en San Miguel, Jesús María y Magdalena del Mar. Mucho antojo. Cero culpa.">
+  <meta property="og:url" content="https://enbocados.vercel.app/">
+  <meta property="og:image" content="https://enbocados.vercel.app/images/burger-gourmet-con-papas.jpg">
+  <meta property="og:image:width" content="1100">
+  <meta property="og:image:height" content="619">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Enbocados | Burgers, Mexa, Bowls y Salchipapas en San Miguel, Lima">
+  <meta name="twitter:description" content="Pide hamburguesas, tacos, bowls y salchipapas por delivery en San Miguel, Jesús María y Magdalena del Mar.">
+  <meta name="twitter:image" content="https://enbocados.vercel.app/images/burger-gourmet-con-papas.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;600;700;800;900&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/burger-gourmet-con-papas.jpg" fetchpriority="high">
 
   <link rel="icon" href="images/logo.png" type="image/png">
   <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://enbocados.vercel.app/#organization",
+        "name": "Enbocados",
+        "url": "https://enbocados.vercel.app/",
+        "logo": "https://enbocados.vercel.app/images/logo.png",
+        "sameAs": [],
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "San Miguel, Lima" },
+          { "@type": "AdministrativeArea", "name": "Jesús María, Lima" },
+          { "@type": "AdministrativeArea", "name": "Magdalena del Mar, Lima" }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://enbocados.vercel.app/#website",
+        "url": "https://enbocados.vercel.app/",
+        "name": "Enbocados",
+        "publisher": { "@id": "https://enbocados.vercel.app/#organization" },
+        "inLanguage": "es-PE"
+      },
+      {
+        "@type": "Menu",
+        "@id": "https://enbocados.vercel.app/#menu",
+        "name": "Carta Enbocados",
+        "inLanguage": "es-PE",
+        "hasMenuSection": [
+          {
+            "@type": "MenuSection",
+            "name": "Piqueos y papas",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Salchipapa", "description": "Clásica salchipapa con salchicha, papas fritas y nuestras salsas.", "offers": { "@type": "Offer", "price": "16.00", "priceCurrency": "PEN" } },
+              { "@type": "MenuItem", "name": "Papas con queso y tocino", "description": "Papas fritas cubiertas con queso derretido y tocino crocante.", "offers": { "@type": "Offer", "price": "11.90", "priceCurrency": "PEN" } },
+              { "@type": "MenuItem", "name": "Chips ají parrillero", "description": "Chips crocantes bañados en nuestra salsa de ají mexicano.", "offers": { "@type": "Offer", "price": "12.90", "priceCurrency": "PEN" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Bebidas",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Chicha morada", "description": "Refrescante chicha morada.", "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "PEN" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Bowls",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Bowl de pollo", "description": "Pollo a la plancha, arroz tomate, vegetales frescos y salsa de la casa.", "offers": { "@type": "Offer", "price": "17.91", "priceCurrency": "PEN" } },
+              { "@type": "MenuItem", "name": "Bowl pollo mexicano", "description": "Pollo sazonado estilo mexicano, maíz, frejoles, culantro, cebolla y salsa verde.", "offers": { "@type": "Offer", "price": "18.90", "priceCurrency": "PEN" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Tacos y enchiladas",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Tacos de pollo", "description": "Tres tacos de pollo adobado con cilantro, cebolla morada.", "offers": { "@type": "Offer", "price": "17.90", "priceCurrency": "PEN" } },
+              { "@type": "MenuItem", "name": "Quesadilla de pollo", "description": "Tortillas rellenas de pollo adobado, queso gratinado, cebolla, lechuga y culantro.", "offers": { "@type": "Offer", "price": "19.90", "priceCurrency": "PEN" } }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Burgers",
+            "hasMenuItem": [
+              { "@type": "MenuItem", "name": "Burger gourmet + papas", "description": "Carne, queso cheddar, lechuga, tomate y papas fritas.", "offers": { "@type": "Offer", "price": "24.90", "priceCurrency": "PEN" } },
+              { "@type": "MenuItem", "name": "Burger de pollo", "description": "Hamburguesa de pollo, cheddar, lechuga, tomate y mayo.", "offers": { "@type": "Offer", "price": "16.90", "priceCurrency": "PEN" } },
+              { "@type": "MenuItem", "name": "Burger clásica + papas", "description": "Hamburguesa clásica, queso, cebolla caramelizada servida con papas fritas crocantes.", "offers": { "@type": "Offer", "price": "22.90", "priceCurrency": "PEN" } }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -19,7 +116,7 @@
   <header class="header">
     <div class="header__identity">
       <div class="header__logo">
-        <img src="images/logoo.png" alt="Logo de Enbocados" width="300" height="300">
+        <img src="images/logoo.png" alt="Logo de Enbocados" width="300" height="300" fetchpriority="high">
       </div>
     </div>
     <nav class="header__actions">
@@ -36,7 +133,7 @@
     <div class="hero__text">
       <p class="eyebrow">LIMA / SABOR SIN REGLAS</p>
       <h1 class="hero__title">MUCHO ANTOJO.<br>CERO CULPA.</h1>
-      <p class="hero__desc">Burgers, mexa, bowls y unas papas que no se comparten. Tú pones el hambre. Nosotros, el resto.</p>
+      <p class="hero__desc">Burgers, mexa, bowls y unas papas que no se comparten, con delivery en San Miguel, Jesús María y Magdalena del Mar. Tú pones el hambre. Nosotros, el resto.</p>
       <a class="btn btn--black" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
         RESUELVE TU ANTOJO
         <svg class="icon icon--yellow" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-arrow"></use></svg>
@@ -45,7 +142,7 @@
 
     <div class="hero__collage">
       <div class="collage__frame">
-        <img src="images/BURGER_GOURMET_CON_PAPAS.jpg" alt="Hamburguesa en capas. Imagen referencial.">
+        <img src="images/burger-gourmet-con-papas.jpg" alt="Burger gourmet con papas de Enbocados, hamburguesa en capas" width="1100" height="619" fetchpriority="high" decoding="async">
       </div>
       <div class="collage__badge">
         <svg class="icon icon--fire" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-fire"></use></svg>
@@ -74,7 +171,7 @@
 
         <!-- PIQUEOS Y PAPAS -->
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/Salchipapa.jpg" alt="Salchipapa">
+          <img class="producto__img" src="images/salchipapa.jpg" alt="Salchipapa con salchicha, papas fritas y salsas" width="900" height="900" loading="lazy" decoding="async">
           <p class="producto__cat">PIQUEOS Y PAPAS</p>
           <h3 class="producto__nombre">SALCHIPAPA</h3>
           <p class="producto__desc">Clásica salchipapa con salchicha, papas fritas y nuestras salsas.</p>
@@ -85,7 +182,7 @@
         </a>
 
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/PapasconQuesoTocino.jpeg" alt="Papas con queso y tocino">
+          <img class="producto__img" src="images/papas-con-queso-y-tocino.jpeg" alt="Papas fritas con queso derretido y tocino crocante" width="900" height="900" loading="lazy" decoding="async">
           <p class="producto__cat">PIQUEOS Y PAPAS</p>
           <h3 class="producto__nombre">PAPAS CON QUESO Y TOCINO</h3>
           <p class="producto__desc">Papas fritas cubiertas con queso derretido y tocino crocante.</p>
@@ -96,7 +193,7 @@
         </a>
 
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/Totopos.jpeg" alt="Chips ají parrillero">
+          <img class="producto__img" src="images/Totopos.jpeg" alt="Chips crocantes con salsa de ají parrillero" width="569" height="569" loading="lazy" decoding="async">
           <p class="producto__cat">PIQUEOS Y PAPAS</p>
           <h3 class="producto__nombre">CHIPS AJÍ PARRILLERO</h3>
           <p class="producto__desc">Chips crocantes bañados en nuestra salsa de ají mexicano.</p>
@@ -108,7 +205,7 @@
 
         <!-- BEBIDAS -->
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/Chichamorada.jpeg" alt="Chicha morada">
+          <img class="producto__img" src="images/chicha-morada.jpeg" alt="Vaso de chicha morada refrescante" width="900" height="900" loading="lazy" decoding="async">
           <p class="producto__cat">BEBIDAS</p>
           <h3 class="producto__nombre">CHICHA MORADA</h3>
           <p class="producto__desc">Refrescante chicha morada.</p>
@@ -120,7 +217,7 @@
 
         <!-- BOWLS -->
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/Bowl de pollo grill.png" alt="Bowl de pollo">
+          <img class="producto__img" src="images/bowl-de-pollo-grill.png" alt="Bowl de pollo a la plancha con arroz tomate y vegetales" width="700" height="644" loading="lazy" decoding="async">
           <p class="producto__cat">BOWLS</p>
           <h3 class="producto__nombre">BOWL DE POLLO</h3>
           <p class="producto__desc">Pollo a la plancha, arroz tomate, vegetales frescos y salsa de la casa.</p>
@@ -131,7 +228,7 @@
         </a>
 
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/Bowl de pollo Mex.png" alt="Bowl pollo mexicano">
+          <img class="producto__img" src="images/bowl-de-pollo-mexicano.png" alt="Bowl de pollo estilo mexicano con maíz, frejoles y salsa verde" width="700" height="679" loading="lazy" decoding="async">
           <p class="producto__cat">BOWLS</p>
           <h3 class="producto__nombre">BOWL POLLO MEXICANO</h3>
           <p class="producto__desc">Pollo sazonado estilo mexicano, maíz, frejoles, culantro, cebolla y salsa verde.</p>
@@ -143,7 +240,7 @@
 
         <!-- TACOS Y ENCHILADAS -->
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/TacosdePollo.jpeg" alt="Tacos de pollo">
+          <img class="producto__img" src="images/tacos-de-pollo.jpeg" alt="Tacos de pollo adobado con cilantro y cebolla morada" width="800" height="800" loading="lazy" decoding="async">
           <p class="producto__cat">TACOS Y ENCHILADAS</p>
           <h3 class="producto__nombre">TACOS DE POLLO</h3>
           <p class="producto__desc">Tres tacos de pollo adobado con cilantro, cebolla morada.</p>
@@ -154,7 +251,7 @@
         </a>
 
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/Quesadilla.jpeg" alt="Quesadilla de pollo">
+          <img class="producto__img" src="images/quesadilla-de-pollo.jpeg" alt="Quesadilla de pollo adobado con queso gratinado" width="800" height="800" loading="lazy" decoding="async">
           <p class="producto__cat">TACOS Y ENCHILADAS</p>
           <h3 class="producto__nombre">QUESADILLA DE POLLO</h3>
           <p class="producto__desc">Tortillas rellenas de pollo adobado, queso gratinado, cebolla, lechuga y culantro.</p>
@@ -166,7 +263,7 @@
 
         <!-- BURGERS -->
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/BURGER_GOURMET_CON_PAPAS.jpg" alt="Burger gourmet + papas">
+          <img class="producto__img" src="images/burger-gourmet-con-papas.jpg" alt="Burger gourmet con queso cheddar, lechuga, tomate y papas" width="1100" height="619" loading="lazy" decoding="async">
           <p class="producto__cat">BURGERS</p>
           <h3 class="producto__nombre">BURGER GOURMET + PAPAS</h3>
           <p class="producto__desc">Carne, queso cheddar, lechuga, tomate y papas fritas.</p>
@@ -177,7 +274,7 @@
         </a>
 
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/Hamburguesa de pollo.png" alt="Burger de pollo">
+          <img class="producto__img" src="images/hamburguesa-de-pollo.jpg" alt="Burger de pollo con cheddar, lechuga, tomate y mayonesa" width="900" height="822" loading="lazy" decoding="async">
           <p class="producto__cat">BURGERS</p>
           <h3 class="producto__nombre">BURGER DE POLLO</h3>
           <p class="producto__desc">Hamburguesa de pollo, cheddar, lechuga, tomate y mayo.</p>
@@ -188,7 +285,7 @@
         </a>
 
         <a class="producto" href="https://www.pedidosya.com.pe/restaurantes/lima/enbocados-san-miguel-5f19232f-15d0-4a36-9d69-6d5bcd3c89bc-menu" target="_blank" rel="noopener">
-          <img class="producto__img" src="images/BURGER_CARNE_CON_PAPAS.jpg" alt="Burger clásica + papas">
+          <img class="producto__img" src="images/burger-clasica-con-papas.jpg" alt="Burger clásica con queso, cebolla caramelizada y papas fritas" width="900" height="506" loading="lazy" decoding="async">
           <p class="producto__cat">BURGERS</p>
           <h3 class="producto__nombre">BURGER CLÁSICA + PAPAS</h3>
           <p class="producto__desc">Hamburguesa clásica, queso, cebolla caramelizada servida con papas fritas crocantes.</p>
@@ -216,13 +313,13 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <p class="footer__address"></p>
+    <p class="footer__address">Delivery en San Miguel, Jesús María y Magdalena del Mar · Lima, Perú</p>
     <p class="footer__logo">ENBOCADOS</p>
     <p class="footer__legal">© 2026 Enbocados. El antojo tiene nombre. Pedidos a través de PedidosYa.</p>
   </footer>
 
   <a class="whatsapp-float" href="https://wa.me/51974746984?text=Hola%20Enbocados%2C%20quiero%20hacer%20un%20pedido." target="_blank" rel="noopener" aria-label="Chatear por WhatsApp" title="WhatsApp">
-    <img src="images/WhatsApp_icon.png" alt="WhatsApp" width="120" height="120">
+    <img src="images/WhatsApp_icon.png" alt="WhatsApp" width="90" height="90" decoding="async">
   </a>
 
   <!-- SPRITE DE ICONOS -->
